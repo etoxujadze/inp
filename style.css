@@ -1,0 +1,56 @@
+.box1 {
+    width: 315px;
+    height: 45px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+}
+
+@font-face {
+    font-family: "fonti" ;
+    src: url(Inter-VariableFont_slnt\,wght.ttf);
+}
+.box2 {
+    width: 467px;
+    height: 45px;
+    border: 1px solid #FF0000;
+    border-radius: 15px;
+    background-color: #610000;
+    
+}
+.box3 {
+    width: 541px;
+    height: 45px;
+    border: 1px solid #A8AB00;
+    border-radius: 5px;
+}
+.box4 {
+    width: 315px;
+    height: 45px;
+    border: 1px solid #F9FE03;
+    border-radius: 30px;
+    background-color: #292828;
+}
+body {
+    font-family: "fonti";
+}
+.box1::placeholder {
+    color: #E9E9E9;
+    size: 16px;
+    line-height: 19.36px;
+}
+.box2::placeholder {
+    color: #F07272;
+    size: 16px;
+    line height: 19.36px;
+}
+.box3::placeholder {
+    color: #A8AB00;
+    size: 16px;
+    line-height: 19.36px;
+}
+.box4::placeholder {
+    color: #F9FE03;
+    size: 16px;
+    line-height: 19.36;
+    padding-left: 10px;
+}
